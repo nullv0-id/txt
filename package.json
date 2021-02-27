@@ -1,0 +1,18 @@
+{
+  "name": "txt",
+  "version": "0.0.1",
+  "description": "bad hastebin-like backend",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pankek <ehern.lee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}
